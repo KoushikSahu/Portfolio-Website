@@ -1,0 +1,53 @@
+@font-face{
+    font-family: name-font;
+    src: url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+}
+
+@font-face{
+    font-family: clg-name;
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+}
+
+@font-face{
+    font-family: branch;
+    src: url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+}
+
+.left-col{
+    margin-top: 10vh;
+}
+
+.my-img{
+    max-width: 100%;
+    border: none;
+    border-radius: 20px;
+}
+
+.my-img:hover{
+    animation: enlarge 0.2s ease forwards;
+}
+
+.name{
+    font-family: name-font;
+    font-size: 30px;
+}
+
+.college-name{
+    font-family: clg-name;
+    font-size: 17.5px;
+    transform: scale(0.9, 1.2);
+}
+
+.branch-name{
+    font-family: branch;
+    transform: scale(0.9, 1.2);
+}
+
+@keyframes enlarge{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
