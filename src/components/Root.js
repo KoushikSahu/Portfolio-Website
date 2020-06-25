@@ -5,14 +5,10 @@ import Intro from './Intro.js'
 
 function Root() {
     return (
-        <Router>
-            <div>
-                <Switch>
-                    <TopBar />
-                    <Route path="/Portfolio-Website" exact component={Intro} />
-                </Switch>
-            </div>
-        </Router>
+        <div>
+            <TopBar />
+            <Intro />
+        </div>
     )
 }
 
