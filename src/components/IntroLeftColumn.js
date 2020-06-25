@@ -13,13 +13,16 @@ function IntroLeftColumn() {
                 </Col>
             </Row>
             <Row>
-                <Col className="text-md-right pt-3 pr-4 name">Koushik Sahu</Col>
+                <Col className="text-center text-md-right pt-3 pr-4 name">Koushik Sahu</Col>
             </Row>
             <Row>
-                <Col className="text-md-right branch-name pt-1 pr-1">Computer Science Undergraduate</Col>
+                <Col className="text-center text-md-right branch-name pt-1 pr-1">Computer Science Undergraduate</Col>
             </Row>
             <Row>
-                <Col className="text-md-right pt-2 pr-1 college-name">National Institute of Technology<br/>Rourkela</Col>
+                <Col className="text-center text-md-right pt-2 pr-1 college-name">National Institute of Technology</Col>
+            </Row>
+            <Row>
+                <Col className="text-center text-md-right pt-2 pr-1 college-name">Rourkela</Col>
             </Row>
         </span>
     )
