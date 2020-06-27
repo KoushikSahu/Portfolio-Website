@@ -15,7 +15,7 @@ function TopBar() {
                         <Nav.Link>{options[1]}</Nav.Link>
                         <Nav.Link>{options[2]}</Nav.Link>
                         <Nav.Link>{options[3]}</Nav.Link>
-                        <Nav.Link href="./contact">{options[4]}</Nav.Link>
+                        <Nav.Link href="/Portfolio-Website/contact/">{options[4]}</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

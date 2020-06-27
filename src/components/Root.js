@@ -11,7 +11,7 @@ function Root() {
                 <TopBar />
                 <Switch>
                     <Route path="/Portfolio-Website/" exact component={Intro} />
-                    <Route path="/Portfolio-Website/contact" component={Contact} />
+                    <Route path="/Portfolio-Website/contact/" component={Contact} />
                 </Switch>
             </div>
         </Router>
