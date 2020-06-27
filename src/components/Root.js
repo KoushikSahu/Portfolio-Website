@@ -1,14 +1,18 @@
 import React from 'react'
 import TopBar from './TopBar'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Intro from './Intro.js'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function Root() {
     return (
-        <div>
-            <TopBar />
-            <Intro />
-        </div>
+        <Router>
+            <div>
+                <TopBar />
+                <Switch>
+                    <Route path="/Portfolio-Website/home" exact component={Intro} />
+                </Switch>
+            </div>
+        </Router>
     )
 }
 
