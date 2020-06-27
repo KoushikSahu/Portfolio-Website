@@ -8,7 +8,7 @@ function TopBar() {
     return (
         <div>
             <Navbar bg="dark" variant="dark" expand="sm" className="shadow">
-                <Link to='/Portfolio-Website/home'><Navbar.Brand href=".">Home</Navbar.Brand></Link>
+                <Link to='/Portfolio-Website/'><Navbar.Brand href=".">Home</Navbar.Brand></Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"></Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">

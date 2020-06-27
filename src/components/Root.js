@@ -9,7 +9,7 @@ function Root() {
             <div>
                 <TopBar />
                 <Switch>
-                    <Route path="/Portfolio-Website/home" exact component={Intro} />
+                    <Route path="/Portfolio-Website/" exact component={Intro} />
                 </Switch>
             </div>
         </Router>
