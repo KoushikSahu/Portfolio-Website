@@ -2,17 +2,15 @@ import React from 'react'
 import TopBar from './TopBar'
 import Intro from './Intro.js'
 import Contact from './Contact.js'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 
 function Root() {
     return (
-        <Router>
+        <Router basename="/">
             <div>
                 <TopBar />
-                <Switch>
-                    <Route path="/Portfolio-Website/" exact component={Intro} />
-                    <Route path="/Portfolio-Website/contact/" component={Contact} />
-                </Switch>
+                <Route path="/" exact component={Intro} />
+                <Route path="/contact/" component={Contact} />
             </div>
         </Router>
     )
